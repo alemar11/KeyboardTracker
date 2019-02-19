@@ -57,7 +57,7 @@ class ViewController: UIViewController {
   lazy var inputContainerView: UIView = {
     let view = UIView(frame: .zero)
     view.translatesAutoresizingMaskIntoConstraints = false
-    view.backgroundColor = .green
+    view.backgroundColor = .white
     return view
   }()
 
@@ -84,8 +84,9 @@ class ViewController: UIViewController {
     bottom = view.safeAreaInsets.bottom
 
     let textField = UITextField()
-    textField.backgroundColor = .blue
-    textField.placeholder = "Test"
+    textField.backgroundColor = .clear
+    textField.textColor = .white
+    textField.placeholder = "Test input"
     textField.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     inputContainerView.addSubview(textField)
 
@@ -125,7 +126,7 @@ extension ViewController: UICollectionViewDataSource {
 
   public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath)
-    cell.contentView.backgroundColor = .black
+    cell.contentView.backgroundColor = .gray
     return cell
   }
 
