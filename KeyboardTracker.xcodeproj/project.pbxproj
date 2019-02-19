@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2308248521FF4B02007E2FC1 /* UIEdgeInset+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2308248221FF4B02007E2FC1 /* UIEdgeInset+Utils.swift */; };
 		2308248621FF4B02007E2FC1 /* UICollectionView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2308248321FF4B02007E2FC1 /* UICollectionView+Utils.swift */; };
 		2312D11321FB6B34000DAAE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2312D11221FB6B34000DAAE6 /* AppDelegate.swift */; };
 		2312D11521FB6B34000DAAE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2312D11421FB6B34000DAAE6 /* ViewController.swift */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2308248221FF4B02007E2FC1 /* UIEdgeInset+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIEdgeInset+Utils.swift"; sourceTree = "<group>"; };
 		2308248321FF4B02007E2FC1 /* UICollectionView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Utils.swift"; sourceTree = "<group>"; };
 		2312D10F21FB6B34000DAAE6 /* KeyboardTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2312D11221FB6B34000DAAE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				2308248321FF4B02007E2FC1 /* UICollectionView+Utils.swift */,
-				2308248221FF4B02007E2FC1 /* UIEdgeInset+Utils.swift */,
 				2312D11221FB6B34000DAAE6 /* AppDelegate.swift */,
 				2312D11421FB6B34000DAAE6 /* ViewController.swift */,
 				2312D11921FB6B36000DAAE6 /* Assets.xcassets */,
@@ -141,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2308248521FF4B02007E2FC1 /* UIEdgeInset+Utils.swift in Sources */,
 				2308248621FF4B02007E2FC1 /* UICollectionView+Utils.swift in Sources */,
 				2312D11521FB6B34000DAAE6 /* ViewController.swift in Sources */,
 				2312D12521FB6B45000DAAE6 /* KeyboardTracker.swift in Sources */,
