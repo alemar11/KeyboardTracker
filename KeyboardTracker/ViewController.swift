@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TrackedView: UIView {
+class MainView: UIView {
 
   override var inputAccessoryView: UIView? {
     return dummyView
@@ -62,7 +62,7 @@ class ViewController: UIViewController {
   }()
 
   override func loadView() {
-    view = TrackedView()
+    view = MainView()
     view.backgroundColor = .white
   }
 
@@ -93,7 +93,7 @@ class ViewController: UIViewController {
     keyboardTracker = KeyboardTracker()
     keyboardTracker.delegate = self
 
-    (self.view as? TrackedView)?.dummyView = keyboardTracker?.trackingView
+    (self.view as? MainView)?.dummyView = keyboardTracker?.trackingView
   }
 
   override func viewDidLayoutSubviews() {
